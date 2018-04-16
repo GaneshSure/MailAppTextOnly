@@ -12,6 +12,9 @@ public class Client
         TestBean tb=(TestBean)o;
 //        TestBean tb=(TestBean)ctx.getBean("id2");
         tb.sendEmail();
+		System.out.println("mail send successfully");
+
+        
     	
     }
 }
